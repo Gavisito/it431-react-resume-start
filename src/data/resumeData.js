@@ -1,7 +1,10 @@
 const resumeData = {
     name: "John Doe",
-    role: "Full Stack Developer",
     linkedinId: "Your LinkedIn Id",
+    address: "123 Main Street, Anytown, CA 12345",
+    phone: "123-456-7890",
+    email: "john.doe@abc.com",
+    role: "Full Stack Developer",
     roleDescription: "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
     education: [
         {
@@ -41,7 +44,10 @@ const resumeData = {
         achievements: "Some Achievements",
         presentEmployer: true
     }],
-    skills: [{ skillname: "HTML5", yearsOfExperience: 2 }, { skillname: "CSS", yearsOfExperience: 2 }, { skillname: "Reactjs", yearsOfExperience: 1 }],
+    skills: [
+        { skillname: "HTML5", yearsOfExperience: 2 },
+        { skillname: "CSS", yearsOfExperience: 2 },
+        { skillname: "Reactjs", yearsOfExperience: 1 }],
     references: [
         { name: "Larry Jones", description: "Friend", email: "abc@def.com", phone: "123-456-7890" },
         { name: "Tony Smith", description: "Supervisor", email: "zzz@def.com", phone: "123-555-8888" }
