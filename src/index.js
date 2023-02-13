@@ -18,7 +18,7 @@ root.render(
       <Routes>
         {/* TODO: Replace All hard code values with data from resumeData.js */}
         <Route path="/" element={<Contact name="John Doe" />} />
-        <Route path="/employment" element={<Employment companyName="Company ABC" summary="A brief Summary ABC" />} />
+        <Route path="/employment" element={<Employment />} />
         <Route path="/education" element={<Education />} />
         {/* TODO: add skills and reference components */}
       </Routes>
