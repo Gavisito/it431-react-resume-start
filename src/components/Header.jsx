@@ -34,6 +34,18 @@ const Header = () => {
               >
                 Education
               </Link>
+              <Link
+                to="/references"
+                className="px-3 py-2 text-gray-600 hover:text-gray-900"
+              >
+                References
+              </Link>
+              <Link
+                to="/skills"
+                className="px-3 py-2 text-gray-600 hover:text-gray-900"
+              >
+                Skills
+              </Link>
               {/* TODO:  Add Links to the Skills and Reference Pages */}
             </div>
           </div>
