@@ -46,7 +46,8 @@ const Header = () => {
               >
                 Skills
               </Link>
-              {/* TODO:  Add Links to the Skills and Reference Pages */}
+
+              {/* TODO:  Add Links to the Skills and Reference Pages DONE */}
             </div>
           </div>
         </div>
