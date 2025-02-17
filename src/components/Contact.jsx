@@ -4,7 +4,7 @@ import Card from "./Card";
 const Contact = ({ data }) => {
   const { name, role, roleDescription, email, phone, address, linkedin } =
     data.personalInfo;
-
+  //i have looked over this file. It seems all values have been placed
   return (
     <div className="container mx-auto px-4 pt-20">
       <h1 className="text-3xl font-bold mb-8">Resume for {name}</h1>
